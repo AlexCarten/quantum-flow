@@ -2,9 +2,9 @@
 
 Hydrogen atom simulations: real orbitals, with the **probability current** shown as millions of flowing particles.
 
-![Atom emitting light, 2p → 1s](
-<img width="420" height="711" alt="orbital-6p" src="https://github.com/user-attachments/assets/5861ffc9-4603-400b-8722-665b64ce3b62" />
-)
+<img width="420" alt="orbital-6p" src="https://github.com/user-attachments/assets/5861ffc9-4603-400b-8722-665b64ce3b62" />
+
+*Reference: original visualization by Anssi Kuha ([Imagining Physics](https://www.youtube.com/@imaginingPhysics)).*
 
 Made by **[@AlexCarten_](https://x.com/AlexCarten_)**. Videos from this repo are posted on X.
 
