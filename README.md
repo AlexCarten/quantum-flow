@@ -2,7 +2,7 @@
 
 Hydrogen atom simulations: real orbitals, with the **probability current** shown as millions of flowing particles.
 
-![Atom emitting light, 2p → 1s](media/atom-emits-light.gif)
+![Atom emitting light, 2p → 1s](Hydrogen_Orbitals)
 
 Made by **[@AlexCarten_](https://x.com/AlexCarten_)**. Videos from this repo are posted on X.
 
