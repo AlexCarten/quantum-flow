@@ -38,13 +38,13 @@ For a stationary orbital ψₙₗₘ this is pure rotation around z:  `v_φ = m/
 
 Edit the CONFIG block at the top: `STATE = (n, l, m)`, particle count, camera angle, cutaway, fly-in.
 
-![Blender render, 6p](media/blender-6p.jpg)
+![Blender render, 6p](media/blender-6p.png)
 
 ### Orbital Studio (browser)
 Open `studio/index.html` in desktop Chrome or Edge. Pick a preset, press **Render MP4**.
 Live version: enable GitHub Pages for this repo and open `https://<your-name>.github.io/quantum-flow/studio/`.
 
-![Studio, 6p cutaway](media/studio-6p.jpg)
+![Studio, 6p cutaway](media/studio-6p.png)
 
 ### Python
 ```
