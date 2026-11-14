@@ -25,6 +25,43 @@ v = Im(∇ψ / ψ) + ½ ∇ × (ρ ẑ) / ρ        ρ = |ψ|²
 
 For a stationary orbital ψₙₗₘ this is pure rotation around z:  `v_φ = m/s − ½ ∂ln ρ/∂s`.
 
+## New: 1 electron, 2 states at once
+
+<p align="center">
+  <img src="media/one-electron-cut.jpg" width="330" alt="5g superposition, cut open">
+  &nbsp;
+  <img src="media/one-electron-flow.jpg" width="330" alt="5g superposition, wavefronts">
+</p>
+
+**Script:** [`blender/one_electron_blender.py`](blender/one_electron_blender.py) · **Music:** [`media/one_electron_music.wav`](media/one_electron_music.wav) (same 30 s timing)
+
+A single hydrogen electron placed in an equal mix of 2 states with the **same energy** (same n and l, different m):
+
+```
+ψ = ( |n, l, m₁⟩ + |n, l, m₂⟩ ) / √2        e.g.  n = 5, l = 4, m = +4 and −2
+```
+
+Because both states share one energy, |ψ|² does not change in time: **the shape is frozen forever**.
+Yet the probability current `j = ρ ∇(phase)` is not zero, so **something keeps flowing through it**.
+The round cloud of a single orbital breaks into lobes with (m₁ − m₂)-fold symmetry.
+
+How it is drawn:
+
+| On screen | Meaning |
+|---|---|
+| Grains on a surface | iso-surface of \|ψ\|²: where the electron is most likely to be found |
+| Orange · red | current circulating counterclockwise around z (slow → fast) |
+| Green · blue | current circulating clockwise (slow → fast) |
+| White lines | wavefronts (lines of equal phase); they travel as the global phase e^(−iEt) turns |
+| Round hole | the top is cut away to show the cross-section through the middle |
+
+Four shapes morph into each other: 3d, 4f, 5g and 5g. Spin is left out here (plain Schrödinger current), and each shape is scaled to fit the frame.
+
+**Run it:** Blender 4.2+ / 5.x → File › New › General → Scripting → Open `one_electron_blender.py` → Run Script (about 1 minute to build the 4 shapes) → Render › Render Animation.
+Settings at the top of the file: `N_TOTAL` (grains), `FPS` (30 or 60), `STATES`, `KAPPA` (rounder ↔ more lobes), `CUT`, `HOLE_R`, `SHIMMER`.
+
+There is a cat hidden in the video.
+
 ## Three tools
 
 | Folder | What it is | Quality | Speed |
