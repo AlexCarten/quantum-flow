@@ -28,10 +28,14 @@ For a stationary orbital ψₙₗₘ this is pure rotation around z:  `v_φ = m/
 ## New: 1 electron, 2 states at once
 
 <p align="center">
-  <img src="media/one-electron-cut.jpg" width="330" alt="5g superposition, cut open">
+  <img src="media/one-electron-hook.jpg" width="250" alt="1 electron in 2 states at once">
   &nbsp;
-  <img src="media/one-electron-flow.jpg" width="330" alt="5g superposition, wavefronts">
+  <img src="media/one-electron.gif" width="250" alt="wavefronts travelling over the frozen shape">
+  &nbsp;
+  <img src="media/one-electron-frozen.jpg" width="250" alt="the shape never changes">
 </p>
+
+<p align="center"><i>Watch it on X: <a href="https://x.com/AlexCarten_">@AlexCarten_</a></i></p>
 
 **Script:** [`blender/one_electron_blender.py`](blender/one_electron_blender.py) · **Music:** [`media/one_electron_music.wav`](media/one_electron_music.wav) (same 30 s timing)
 
@@ -53,7 +57,7 @@ How it is drawn:
 | Orange · red | current circulating counterclockwise around z (slow → fast) |
 | Green · blue | current circulating clockwise (slow → fast) |
 | White lines | wavefronts (lines of equal phase); they travel as the global phase e^(−iEt) turns |
-| Round hole | the top is cut away to show the cross-section through the middle |
+| Round hole (optional, `CUT`) | the top is cut away to show the cross-section through the middle |
 
 Four shapes morph into each other: 3d, 4f, 5g and 5g. Spin is left out here (plain Schrödinger current), and each shape is scaled to fit the frame.
 
